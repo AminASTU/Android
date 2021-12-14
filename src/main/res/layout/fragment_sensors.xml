@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SensorsFragment">
+
+    <TextView
+        android:id="@+id/Light"
+        android:layout_width="93dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="100dp"
+        android:textSize="18sp"
+        android:text="NULL" />
+
+    <TextView
+        android:id="@+id/Proximity"
+        android:layout_width="93dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="155dp"
+        android:text="NULL"
+        android:textSize="18sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/checkInternet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Check internet state" />
+
+
+</FrameLayout>

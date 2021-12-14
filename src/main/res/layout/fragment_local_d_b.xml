@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocalDBFragment">
+
+    <TableLayout
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="122dp"></TableLayout>
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:text="Add"></Button>
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="220dp"
+        android:text="Delete"></Button>
+
+    <EditText
+        android:id="@+id/nameedit"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:text="name"></EditText>
+
+    <EditText
+        android:id="@+id/courseedit"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:text="1"></EditText>
+
+    <EditText
+        android:id="@+id/deleteID"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="125dp"
+        android:text="1"></EditText>
+
+</FrameLayout>
